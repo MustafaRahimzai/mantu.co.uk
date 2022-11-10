@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ffffff;
+    
+}
+
+.foods-plate{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 800px) {
+    .foods-plate{
+      flex: 100%;
+      
+    }
+  }
+
+.foods-plate .mantu{
+    
+    width: 150px;
+    height: 200px;
+    border-radius: 31px;
+    background: linear-gradient(180deg,#ffffff, #c5c5c5);
+    box-shadow: 10px 10px 30px #d9d9d9,
+    -20px -20px 60px #ffffff;
+  
+
+}
+
+.foods-plate .mantu h6{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.foods-plate .mantu h3,h5{
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.foods-plate .mantu img{
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+.foods-plate .samosa{
+    width: 150px;
+    height: 200px;
+    border-radius: 31px;
+    background: linear-gradient(145deg,#ffffff, #c5c5c5);
+    box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+.foods-plate .samosa h6{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.foods-plate .samosa h3,h5{
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.foods-plate .samosa img{
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+.foods-plate .aykhanom{
+    width: 150px;
+    height: 200px;
+    border-radius: 31px;
+    background: linear-gradient(145deg,#ffffff, #c5c5c5);
+    box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+
+.foods-plate .aykhanom h6{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.foods-plate .aykhanom h3{
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.foods-plate .aykhanom img{
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+.foods-plate .turshi{
+    width: 150px;
+    height: 200px;
+    border-radius: 31px;
+    background: linear-gradient(145deg,#ffffff, #c5c5c5);
+    box-shadow: 20px 20px 60px #d9d9d9,
+    -20px -20px 60px #ffffff;
+}
+
+
+.foods-plate .turshi h6{
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.foods-plate .turshi h3{
+    display: flex;
+    justify-content:flex-start;
+    font-family: 'Rubik', sans-serif;
+    padding-left: 10px;
+    padding-top: 7px;
+}
+
+.foods-plate .turshi img{
+    width: 100px;
+    height: 100px;
+    border-radius: 45px;
+    display: block;
+    margin: 0 auto;
+  
+}
+
+.bodyParagraphs{
+    display:flex ;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.bodyParagraphs .paragraph1{
+    margin: 20px 10px 10px 10px;
+
+    border-radius: 9px;
+    background: linear-gradient(145deg, #e6e6e6,#ffffff);
+
+    box-shadow:  6px 6px 12px #e3e3e3,
+     -6px -6px 12px #ffffff;
+    padding: 10px;
+    text-align: justify;
+}
+
+
+.bodyParagraphs .paragraph2{
+    border-radius: 9px;
+    background: linear-gradient(145deg, #e6e6e6,#ffffff);
+    box-shadow:  6px 6px 12px #e3e3e3,
+     -6px -6px 12px #ffffff;
+    padding: 10px;
+    margin: 10px;
+    text-align: justify;
+}
+
+
+
+
+

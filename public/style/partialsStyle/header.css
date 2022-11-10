@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
+
+.topnavbar{
+  position: sticky;
+  top: 0;
+}
+
+
+.topnav{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgb(161, 208, 226);
+  height: 8vh;
+ 
+  
+}
+
+.topnav li{
+  list-style: none;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+.topnav li:hover{
+  cursor: pointer;
+}
+
+
+.header{
+    background: url(/images/header-Picture.png);
+    height: 60vh;
+    background-position: center;
+   position: relative;
+   z-index: -1; 
+   justify-content: center;
+   align-items: center;
+   display: flex;
+}
+
+
+.header .header-txt{
+    font-family: 'Bree Serif', serif;
+   
+    font-size: 30px;
+    color: #fff;;
+    letter-spacing: 5px;
+}
+
+
+
+
+.bodynavbar-nav{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 15px;
+  padding: 15px;
+  background-color:none;
+
+}
+
+
+.bodynavbar-nav li{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  font-family: 'Rubik', sans-serif;
+  padding: 10px;
+  font-size: 14px;
+
+  /* neu morphism */
+  background-color: none;
+  box-shadow: 4px 4px 7px rgba(180, 180, 180, 0.4), -4px -4px 7px rgba(187, 187, 187, 0.1);
+  border-radius: 5px;
+ 
+}
+
+
+.bodynavbar-nav li span{
+  font-size: 20px;
+}
+
+.bodynavbar-nav li:hover{
+
+  cursor: pointer;
+
+  /* neu morphism */
+  background-color: none;
+  box-shadow: inset 5px 5px 4px rgba(0, 0, 0, 0.3) , inset -5px -5px 10px rgba(187, 187, 187, 0.1) ;
+  border-radius: 5px;
+
+
+}
+
+
+.text-body{
+ background-color: rgb(255, 190, 70);
+  border-radius: 20px;
+
+}
+
+
+.body-info-txt{
+  margin-top: 8px;
+  text-align: center;
+  
+ border-radius: 20px;
+ z-index: -2;
+}
+
+.body-info-txt h3{
+  padding: 15px;
+  font-family: 'Bree Serif', serif;
+}
