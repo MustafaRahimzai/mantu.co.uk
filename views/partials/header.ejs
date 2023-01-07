@@ -1,6 +1,6 @@
 
 
-<div class="topnavbar">
+<!-- <div class="topnavbar">
     <div class="topnav">
         <li>About Us</li>
         <li>Products</li>
@@ -17,7 +17,86 @@
     <div class="header-txt">
         <h2>Food You Can Trust</h2>
     </div>
+</div> -->
+
+
+<div class="topnavbar">
+    <div class="topnavbar-logo">
+        <a href="/">
+     <h1><span style="color: seagreen;">Ma</span><span style="color: red;">nt</span><span style="color: #222;">u</span></h1>
+    </a>
+    </div>
+    <div class="topnavbar-links">
+        <li>
+            <i class="fa-solid fa-circle-info"></i>
+            <a href="/aboutus">About US</a>
+        </li>
+        <li>
+            <i class="fa fa-product-hunt" aria-hidden="true"></i>
+            <a href="/products">Products</a>
+        </li>
+        <li>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+            <a href="/orderOnline">Order Online</a>
+        </li>
+        <li>
+            <i class="fa fa-address-book" aria-hidden="true"></i>
+            <a href="/contactUs">Contact Us</a>
+        </li>
+    </div>
+    <div class="topnavbar-button">
+       <button type="button" class="signupBtn">Sign Up</button>
+    </div>
 </div>
+
+<div class="mobile-navbar">
+    <div class="toggler-btn">
+        <button type="button" id="toggler-btn">
+            <span class="material-symbols-outlined">
+                menu
+                </span>
+        </button>
+    </div>
+    <div class="mobilenavbar-logo">
+        <a href="/">
+     <h1><span style="color: seagreen;">Ma</span><span style="color: red;">nt</span><span style="color: #222;">u</span></h1>
+    </a>
+    </div>
+   
+
+    <div class="mobilenavbar-button">
+        <button type="button" class="signupBtn">Sign Up</button>
+     </div>
+</div>
+
+<div class="mobile-nav">
+    <li>
+        <i class="fa-solid fa-circle-info"></i>
+        <a href="/aboutus">About US</a>
+    </li>
+    <li>
+        <i class="fa fa-product-hunt" aria-hidden="true"></i>
+        <a href="/products">Products</a>
+    </li>
+    <li>
+        <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        <a href="/orderOnline">Order Online</a>
+    </li>
+    <li>
+        <i class="fa fa-address-book" aria-hidden="true"></i>
+        <a href="/contactUs">Contact Us</a>
+    </li>
+
+</div>
+
+<div class="header">
+    <div class="header-deatils">
+        <h1><i> it`s not just Food <br> it`s an Experience.</i></h1>
+        <img src="images/mantu.png" alt="">
+    </div>
+
+</div>
+
 
 
 
@@ -49,3 +128,14 @@
         Visit Our Store
         </li>
     </div>
+
+
+    
+
+    <script>
+        $(document).ready(function(){
+          $("#toggler-btn").click(function(){
+            $(".mobile-nav").toggle(340);
+          });
+        });
+        </script>
